@@ -24,7 +24,7 @@ const Signals = () => {
             <div className="w-80">
                 <div className="has-[:invalid]:signal">
                     <input
-                        className="p-2 my-3 w-full text-black font-semibold rounded-sm"
+                        className="p-2 my-3 w-full text-black font-semibold rounded-sm bg-white"
                         type="email"
                     />
 
