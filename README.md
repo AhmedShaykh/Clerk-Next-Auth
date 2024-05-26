@@ -1,1 +1,1 @@
-# Clerk & Next Authentication With Nest.JS!
+# Clerk Authentication In Next.JS Nest.JS!
