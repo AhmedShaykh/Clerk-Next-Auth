@@ -8,8 +8,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Clerk Webhook",
-  description: "Clerk Webhook"
+  title: "Clerk Webhooks",
+  description: "Clerk Webhooks"
 };
 
 export default function RootLayout({
