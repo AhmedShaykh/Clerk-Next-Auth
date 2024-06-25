@@ -1,5 +1,5 @@
-import { UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
+import Protect from "@/Components/Protect";
 
 const Protected = async () => {
 
@@ -11,16 +11,9 @@ const Protected = async () => {
                 <h2 className="text-2xl">
                     {user?.fullName}
                 </h2>
-
-                <UserButton
-                    afterSignOutUrl="/"
-                    appearance={{
-                        elements: {
-                            avatarBox: "h-[38px] w-[38px]"
-                        }
-                    }}
-                />
             </div>
+
+            <Protect />
         </div>
     )
 };
