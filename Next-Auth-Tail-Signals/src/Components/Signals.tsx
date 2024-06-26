@@ -33,7 +33,27 @@ const Signals = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div className="w-80">
+                <input
+                    className="peer/checkable origin-bottom-left"
+                    type="checkbox"
+                /> 👈🏼 Check/UnCheck Here
+
+                <div className="peer/hoverable bg-slate-700 text-white p-1 my-1">
+                    ✨ Hover/UnHover Here ✨
+                </div>
+
+                <button className="active:signal/custom my-2 peer-checked/checkable:signal peer-hover/hoverable:signal">
+                    <div
+                        className="text-white py-1 px-[6.95rem] bg-red-800 after:content-['_👀'] signal/custom:!bg-purple-800 
+                        signal:bg-green-800 signal/custom:after:!content-['_🦄'] signal:after:content-['_😱']"
+                    >
+                        Press Me
+                    </div>
+                </button>
+            </div>
+        </div >
     )
 };
 

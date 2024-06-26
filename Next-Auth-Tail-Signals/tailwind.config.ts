@@ -72,7 +72,8 @@ const config = {
     },
   },
   plugins: [
-    require("tailwindcss-animate")
+    require("tailwindcss-animate"),
+    require("tailwindcss-signals")
   ],
 } satisfies Config;
 
