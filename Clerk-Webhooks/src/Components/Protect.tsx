@@ -7,7 +7,7 @@ const Protect = () => {
                 afterSignOutUrl="/"
                 appearance={{
                     elements: {
-                        avatarBox: "h-[38px] w-[38px]"
+                        avatarBox: "h-[45px] w-[45px]"
                     }
                 }}
             />

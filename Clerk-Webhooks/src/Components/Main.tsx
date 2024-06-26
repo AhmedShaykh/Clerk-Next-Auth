@@ -41,6 +41,15 @@ const Main = () => {
                     Go To Protected Page
                 </Button>
             )}
+
+            {isSignedIn && (
+                <Button
+                    className="font-semibold py-6 px-8 text-[1rem]"
+                    onClick={() => router.push("/forget-password")}
+                >
+                    Go To Forgot Password Page
+                </Button>
+            )}
         </div>
     )
 };
